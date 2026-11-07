@@ -1,0 +1,1 @@
+(()=>{document.querySelectorAll('.category-tile').forEach((tile,i)=>tile.addEventListener('click',()=>{let filters=['Cama','Mesa','Decoração'];let b=[...document.querySelectorAll('.chip')].find(x=>x.dataset.filter===filters[i]);if(b)b.click()}));})();
